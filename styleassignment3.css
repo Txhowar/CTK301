@@ -1,0 +1,54 @@
+/* This is my new stylesheet */
+/*
+p {
+ color: #ff0000;
+ background-color: #000066
+}
+*/
+h1 {
+  color: #FFFFFF
+  background-color:#80CBB3;
+}
+
+a {
+  color: #ff0000
+}
+a:link {
+ color: #FF0000;
+}
+
+a:visited {
+ color: #00FF00;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ffff00;
+ text-decoration: underline;
+}
+
+.spanstyle {
+  color: #0FFFF0;
+}
+
+#info {
+  color: #FFFFFF
+  background-color: #00FF00;
+}
+
+#Phone {
+  color:#FF00FF;
+  background-color: #FF0000;
+}
+
+.title {
+  color: #00ffff;
+}
+
+footer {
+  color: #ffffff
+  background-color: #FF0000;
+}
