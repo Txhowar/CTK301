@@ -6,8 +6,8 @@ p {
 }
 */
 h1 {
-  color: #FFFFFF
-  background-color:#80CBB3;
+  color: #0000ff
+  background-color:#ff0000;
 }
 
 a {
@@ -40,7 +40,7 @@ a:hover {
 }
 
 #Phone {
-  color:#FF00FF;
+  color:#FFFFFF;
   background-color: #FF0000;
 }
 
