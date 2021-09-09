@@ -1,0 +1,93 @@
+
+
+a {
+  color: #ff0000
+}
+a:link {
+ color: #FF0000;
+}
+
+a:visited {
+ color: #00FF00;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ffff00;
+ text-decoration: underline;
+}
+
+.spanstyle {
+  color: #0FFF0F;
+}
+
+#info {
+  color: #FFFFFF
+  background-color: #00FF00;
+}
+
+#Phone {
+  color:#FFFFFF;
+  background-color: #FF0000;
+}
+
+.title {
+  color: #00ffff;
+}
+
+footer {
+  color: #ffffff
+  background-color: #FF0000;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+
+}
+
+h1 {
+color: #ff7f00;
+font-style: italic;
+font-weight: 100;
+
+}
+
+h2 {
+  color: #ff7f00;
+  font-style: italic;
+  font-weight: 100;
+}
+
+h3 {
+  color: #ff7f00;
+  font-style: italic;
+  font-weight: 100;
+}
+
+h4 {
+  color: #ff7f00;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.imgbox {
+border: 10px solid #000000;
+}
+
+body {
+background-color: #0000ff;
+background-image: url(gengar.jpg);
+background-repeat: no-repeat;
+background-position: top left;
+}
