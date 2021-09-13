@@ -1,0 +1,43 @@
+h1 {
+background-color: #7E70FF;
+color: #FFFFFF;
+}
+
+h2 {
+color: blue;
+}
+
+h3 {
+  background-color: yellow;
+  color: black;
+}
+
+h4 {
+  background-color: green;
+  color: yellow;
+}
+
+h5 {
+  color: purple;
+}
+
+header {
+background-color: #7E70FF;
+}
+
+a:link {
+ color: green;
+}
+
+
+.spanstyle {
+  color: orange;
+}
+
+.greenBG {
+  background-color: #44FA4E;
+}
+
+.yellowT {
+  color: yellow;
+}
