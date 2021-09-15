@@ -83,6 +83,8 @@ h4 {
 
 .imgbox {
 border: 10px solid #000000;
+padding: 20px 20px 20px 20px;
+background-color: white;
 }
 
 body {
