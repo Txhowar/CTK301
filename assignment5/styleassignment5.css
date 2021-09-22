@@ -1,0 +1,53 @@
+h1 {
+  font-family: Impact, sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: blue;
+  padding: 0px 20px 20px 20px
+}
+
+body {
+background-image: url(Soul.png);
+background-repeat: no-repeat;
+width: 500px;
+}
+
+p {
+  color: blue;
+  text-align: center;
+}
+
+.spanstyle {
+  color: orange;
+
+}
+
+.column1 {
+
+  text-align: center;
+  padding: 0px 20px 20px 0px;
+}
+
+.block {
+  padding: 0px 0px 500px 20px;
+}
+
+.column2 {
+  color: white;
+  text-align: right;
+padding: 0px 20px 0px 100px;
+}
+
+a {
+ color: blue;
+ font-weight: bold;
+ padding: 1000px 100px 100px 100px;
+}
+
+a:hover {
+ color: orange;
+}
+
+.short {
+  font-size: 11px;
+}
