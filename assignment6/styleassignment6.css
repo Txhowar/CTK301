@@ -1,0 +1,105 @@
+h1 {
+  color: white;
+  padding: 20px 20px 20px 20px;
+  background-color: black;
+  grid-column: span 3;
+  font-style: normal;
+  font-family: helvetica;
+}
+
+h2 {
+  font-family: helvetica;
+  grid-column: span 1;
+  border-bottom: 2px solid black;
+
+}
+
+.column1 {
+  padding: 2px 2px 2px 2px;
+  border-color: black;
+}
+nav {
+  grid-column: span 1;
+  padding: 16px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+}
+
+nav li {
+  width: 200px;
+
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  margin: 0 0 1em 0;
+}
+
+main {
+  grid-column: span 2;
+}
+
+
+body {
+background-color: white;
+background-image: url(a62.png);
+background-repeat: repeat;
+background-position: top left;
+}
+
+.imgbox {
+border: 4px solid #000000;
+padding: 1em;
+float: left;
+margin: 0 1em 0 0;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: Georgia;
+
+}
+
+#wrapper {
+margin: 1em auto;
+padding: 0px;
+width: 900px;
+border: 1px solid #ff0000;
+display: grid;
+grid-template-columns: 1fr 1.5fr 1fr;
+background-color: white;
+}
+
+footer {
+  border: 2px solid black;
+  background-color: red;
+  color: white;
+  grid-column: span 3;
+  padding: 10px 10px 10px 10px;
+  font-family: Verdana;
+  text-align: center;
+  font-style: italic;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+ color: blue;
+
+}
+
+li a:hover {
+  background-color: #cb343f;
+  color: white;
+}
