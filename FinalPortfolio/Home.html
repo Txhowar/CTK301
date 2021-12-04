@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Final Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
       <link href="stylefinal.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -20,20 +23,36 @@
   </ul>
   </nav>
   <main>
-<img src="Azumarill.png">
-  <section>
-    <h1> Summary  </h1>
 
-  <p class="dropshadowbox"> My name is Trey Howard and I am a game designer with multiple skills </p>
-  <li><a href="Gallery.html" target="_blank">My Projects</a></li>
-  </section>
-  <section> <h2> About Me </h2>
-  <p> I am a game designer with experience in multiple fields... </p>
+
+<section>
+    <h1> Who am I? </h1>
+
+  <h2 class="textshadowbox"> My name is Trey Howard and I am a game designer with multiple skills </h2>
 </section>
-<img src="Azumarill.png">
-  <section> <h2> My Work: </h2>
-  <p>Here are my works and experiences of the past</p> </section>
-  <img src="Azumarill.png">
+<section>
+
+ <h1> Here are my works and experiences of the past: </h1>
+</section>
+
+
+
+<a href="2021-08-05 (3).png" data-fancybox="gallery" data-caption="This is Plunder The Present, the game I worked on with the ISU Game Development Club"> <img src="2021-08-05 (3).png"> </a>
+
+<a href="2021-08-05.png" data-fancybox="gallery" data-caption="This is Mage Rush, the game I created for a project in Game Development 240."> <img src="2021-08-05 (3).png"> </a>
+
+<a href="titlebeta4.png" data-fancybox="gallery" data-caption="This is Thylla and The Old Gods, a game I worked on with the Challenge Group. "> <img src="2021-08-05 (3).png"> </a>
+
+
+
+  <div id="myCarousel" class="carousel">
+  <div class="carousel__slide">1</div>
+  <div class="carousel__slide">2</div>
+  <div class="carousel__slide">3</div>
+</div>
+<script> const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+  // Your options go here
+}); </script>
 </main>
   <footer>
     <p>Thank you</p>
