@@ -31,9 +31,8 @@ h1 {
 
 
 main {
-  grid-column: span 12;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+
+
   clear: both;
   margin-top: 0px;
 }
@@ -46,10 +45,6 @@ a:hover h1 {
   color: green;
 }
 
-a {
-  color: #2a90d5;
-
-}
 
 h2 {
   color: white;
@@ -68,9 +63,15 @@ h3 {
   font-family: helvetica;
   grid-column: span 1;
   border: 0px solid blue;
-  padding: 20px 20px 20px 20px;
+  padding: 60px 60px 60px 60px;
   text-align: center;
+  font-size: 24px;
+  font-style: italic;
+}
 
+h4 {
+  text-align: center;
+  align-content: center;
 }
 
 nav {
@@ -140,7 +141,7 @@ p {
   border: 0px solid blue;
   padding: 20px 20px 20px 20px;
   text-align: center;
-  font-size: 16px;
+
 
 }
 
@@ -167,6 +168,18 @@ margin: 0 0 0 0;
 width: 100px;
 height: auto;
 
+
+}
+
+.img {
+border: 1px solid purple;
+
+float: left;
+margin: 0 0 0 60;
+width: 300px;
+height: auto;
+align-content: center;
+margin-bottom: 60px;
 }
 
 .project {
@@ -186,6 +199,7 @@ footer {
   font-family: Verdana;
   text-align: center;
   font-style: italic;
+  margin-top: 200px;
 }
 
 #thumbs {
